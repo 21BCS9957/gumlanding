@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  background-color: #12131A;
+  color: #FFFFFF;
+}
+
+body {
+  font-family: var(--font-inter), system-ui, sans-serif;
+  background-color: #12131A;
+  color: #FFFFFF;
+}
+
+/* Premium Metallic Gradient Headline */
+.gradient-headline {
+  background: linear-gradient(
+    90deg,
+    #E7E7E7 0%,
+    #CFCFCF 20%,
+    #F2E7B0 50%,
+    #F3CF3B 75%,
+    #E9BC1A 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  filter: drop-shadow(0 0 20px rgba(243, 207, 59, 0.15));
+  position: relative;
+}
+
+/* Enhanced readability and premium feel */
+.gradient-headline::before {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background: linear-gradient(
+    90deg,
+    rgba(231, 231, 231, 0.1) 0%,
+    rgba(243, 207, 59, 0.1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  filter: blur(20px);
+}
