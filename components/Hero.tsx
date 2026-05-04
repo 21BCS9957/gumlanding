@@ -10,7 +10,7 @@ export default function Hero() {
         </div>
 
         {/* Main Headline */}
-        <h1 className="mt-12 font-playfair font-black leading-[1.05] tracking-tight text-justify md:text-center">
+        <h1 className="mt-12 font-playfair font-black leading-[1.05] tracking-tight text-left md:text-center">
           <span className="block text-[clamp(3rem,6vw,5rem)] gradient-headline">
             We'll Drive Revenue From Your
           </span>

@@ -29,7 +29,7 @@ export default function WhyNotWorking() {
         </div>
 
         {/* Heading */}
-        <h2 className="mt-6 font-playfair font-black text-5xl leading-tight text-justify md:text-left">
+        <h2 className="mt-6 font-playfair font-black text-5xl leading-tight text-left md:text-left">
           <span className="block gradient-headline">Most YouTube channels produce.</span>
           <span className="block gradient-headline italic">Very few actually perform.</span>
         </h2>
@@ -52,7 +52,7 @@ export default function WhyNotWorking() {
               </div>
 
               {/* Title */}
-              <h3 className="text-xl font-bold gradient-headline font-playfair text-justify md:text-left">
+              <h3 className="text-xl font-bold gradient-headline font-playfair text-left md:text-left">
                 {issue.title}
               </h3>
 

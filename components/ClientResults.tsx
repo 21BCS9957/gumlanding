@@ -8,7 +8,7 @@ export default function ClientResults() {
         </div>
 
         {/* Heading */}
-        <h2 className="mt-6 font-playfair font-black text-5xl leading-tight text-justify md:text-left">
+        <h2 className="mt-6 font-playfair font-black text-5xl leading-tight text-left md:text-left">
           <span className="block gradient-headline">Real channels.</span>
           <span className="block gradient-headline italic">Real business outcomes.</span>
         </h2>
@@ -49,7 +49,7 @@ export default function ClientResults() {
             </div>
 
             {/* Title */}
-            <h3 className="font-playfair font-bold text-xl gradient-headline text-justify md:text-left">
+            <h3 className="font-playfair font-bold text-xl gradient-headline text-left md:text-left">
               Andrew Verbinnen — Anagen Hair Care
             </h3>
 
@@ -95,7 +95,7 @@ export default function ClientResults() {
                 </span>
               </div>
 
-              <h3 className="font-playfair font-bold text-xl gradient-headline text-justify md:text-left">
+              <h3 className="font-playfair font-bold text-xl gradient-headline text-left md:text-left">
                 Vista Social — B2B SaaS Platform
               </h3>
 
@@ -133,7 +133,7 @@ export default function ClientResults() {
                 </span>
               </div>
 
-              <h3 className="font-playfair font-bold text-xl gradient-headline text-justify md:text-left">
+              <h3 className="font-playfair font-bold text-xl gradient-headline text-left md:text-left">
                 Adison Briana — Yoga & Wellness
               </h3>
 

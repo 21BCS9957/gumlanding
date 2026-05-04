@@ -35,7 +35,7 @@ export default function HowItWorks() {
         </div>
 
         {/* Heading */}
-        <h2 className="mt-6 font-playfair font-black text-5xl leading-tight gradient-headline text-justify md:text-left">
+        <h2 className="mt-6 font-playfair font-black text-5xl leading-tight gradient-headline text-left md:text-left">
           Research first. Then we build.
         </h2>
 
@@ -55,7 +55,7 @@ export default function HowItWorks() {
 
                 {/* Step Content */}
                 <div>
-                  <h3 className="text-xl font-bold gradient-headline font-playfair mb-3 text-justify md:text-left">
+                  <h3 className="text-xl font-bold gradient-headline font-playfair mb-3 text-left md:text-left">
                     {step.title}
                   </h3>
                   <p className="text-sm text-text-muted leading-relaxed">
