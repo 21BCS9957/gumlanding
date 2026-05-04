@@ -12,22 +12,13 @@ export default function Hero() {
         {/* Main Headline */}
         <h1 className="mt-12 font-playfair font-black leading-[1.05] tracking-tight text-justify md:text-center">
           <span className="block text-[clamp(3rem,6vw,5rem)] gradient-headline">
-            We'll Make YouTube Your
+            We'll Drive Revenue From Your
+          </span>
+          <span className="block text-[clamp(3rem,6vw,5rem)] gradient-headline">
+            YouTube In 30 Days. Organically.
           </span>
           <span className="block text-[clamp(3rem,6vw,5rem)] gradient-headline italic">
-            Highest-Performing
-          </span>
-          <span className="block text-[clamp(3rem,6vw,5rem)] gradient-headline">
-            Acquisition Channel —
-          </span>
-          <span className="block text-[clamp(3rem,6vw,5rem)] gradient-headline">
-            With The Lowest CAC Of
-          </span>
-          <span className="block text-[clamp(3rem,6vw,5rem)] gradient-headline">
-            Anything You're Currently
-          </span>
-          <span className="block text-[clamp(3rem,6vw,5rem)] gradient-headline">
-            Running.
+            Or We Work For Free.
           </span>
         </h1>
 
