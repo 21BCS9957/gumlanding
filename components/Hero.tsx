@@ -10,15 +10,21 @@ export default function Hero() {
         </div>
 
         {/* Main Headline */}
-        <h1 className="mt-12 font-playfair font-black leading-[1.05] tracking-tight text-left md:text-center">
-          <span className="block text-[clamp(3rem,6vw,5rem)] gradient-headline">
-            We'll Drive Revenue From Your
+        <h1 className="mt-12 font-manrope text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black leading-tight text-center">
+          <span className="block">
+            <span className="inline-block gradient-headline">
+              We'll Drive Revenue From Your
+            </span>
           </span>
-          <span className="block text-[clamp(3rem,6vw,5rem)] gradient-headline">
-            YouTube In 30 Days. Organically.
+          <span className="block">
+            <span className="inline-block gradient-headline">
+              YouTube In 30 Days.
+            </span>
           </span>
-          <span className="block text-[clamp(3rem,6vw,5rem)] gradient-headline italic">
-            Or We Work For Free.
+          <span className="block">
+            <span className="inline-block gradient-headline">
+              Organically. Or We Work For Free.
+            </span>
           </span>
         </h1>
 

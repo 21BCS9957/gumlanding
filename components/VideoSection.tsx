@@ -2,18 +2,15 @@ export default function VideoSection() {
   return (
     <section className="bg-dark-bg py-20 px-6">
       <div className="max-w-4xl mx-auto">
-        {/* Video Placeholder */}
-        <div className="relative rounded-2xl bg-dark-card border border-dark-border aspect-video flex items-center justify-center">
-          {/* Play Button */}
-          <div className="flex flex-col items-center gap-4">
-            <button className="w-16 h-16 rounded-full bg-brand-yellow flex items-center justify-center hover:bg-brand-yellow-hover transition-colors duration-200 cursor-pointer group">
-              {/* Play Triangle */}
-              <div className="w-0 h-0 border-l-[16px] border-l-dark-bg border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent ml-1"></div>
-            </button>
-            <span className="text-xs uppercase tracking-[0.15em] text-text-muted mt-3">
-              WATCH — 3.5 MINUTES
-            </span>
-          </div>
+        <div className="overflow-hidden rounded-2xl bg-dark-card border border-dark-border aspect-video">
+          <iframe
+            src="https://www.tella.tv/video/stop-guessing-how-to-actually-grow-your-youtube-channel-3noo/embed?feature=oembed"
+            title="Stop Guessing: How to Actually Grow Your YouTube Channel"
+            className="h-full w-full"
+            allow="accelerometer *; autoplay *; clipboard-write *; encrypted-media *; gyroscope *; picture-in-picture *; fullscreen *"
+            allowFullScreen
+            scrolling="no"
+          />
         </div>
 
         {/* CTA Button */}
