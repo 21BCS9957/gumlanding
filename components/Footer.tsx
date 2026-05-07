@@ -1,3 +1,5 @@
+import AuditBookingLink from "@/components/AuditBookingLink";
+
 export default function Footer() {
   return (
     <footer className="bg-dark-bg">
@@ -16,15 +18,15 @@ export default function Footer() {
           </p>
 
           {/* CTA Button */}
-          <a
-            href="https://app.reclaim.ai/m/arsh-growumedia"
+          <AuditBookingLink
+            href="https://form.typeform.com/to/mKGqFyrp"
             target="_blank"
             rel="noopener noreferrer"
             id="audit"
             className="inline-block mt-8 bg-brand-yellow text-dark-bg font-bold px-10 py-5 rounded-xl text-lg hover:bg-brand-yellow-hover transition-colors duration-200 cursor-pointer"
           >
             Book Your Free Audit →
-          </a>
+          </AuditBookingLink>
         </div>
       </section>
 

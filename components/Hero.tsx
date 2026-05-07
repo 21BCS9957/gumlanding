@@ -18,12 +18,12 @@ export default function Hero() {
           </span>
           <span className="block">
             <span className="inline-block gradient-headline">
-              YouTube In 30 Days.
+              YouTube In 30 Days Organically .
             </span>
           </span>
           <span className="block">
             <span className="inline-block gradient-headline">
-              Organically. Or We Work For Free.
+            Or We Work For Free.
             </span>
           </span>
         </h1>

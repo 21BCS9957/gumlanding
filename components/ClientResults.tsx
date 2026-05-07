@@ -20,13 +20,49 @@ export default function ClientResults() {
 
         {/* Featured Case Study 01 */}
         <div className="mt-12 rounded-2xl border border-dark-border bg-dark-card overflow-hidden flex flex-col lg:flex-row">
-          {/* Left Half - Video */}
-          <div className="lg:w-1/2 bg-dark-card-2 min-h-[340px] flex items-center justify-center relative">
-            <div className="flex flex-col items-center gap-4">
-              <div className="w-16 h-16 rounded-full bg-brand-yellow flex items-center justify-center">
-                <div className="w-0 h-0 border-l-[16px] border-l-dark-bg border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent ml-1"></div>
+          {/* Left Half - Proof Images */}
+          <div className="lg:w-1/2 bg-dark-card-2 p-4 md:p-5">
+            <div className="grid gap-4">
+              <div className="grid gap-4 md:grid-cols-2">
+                <div className="overflow-hidden rounded-lg border border-dark-border bg-dark-bg">
+                  <div className="border-b border-dark-border px-4 py-3 text-xs font-black uppercase tracking-[0.16em] text-[#D97850]">
+                    Before — HairDAO Channel
+                  </div>
+                  <img
+                    src="/case-studies/anagen-before.png"
+                    alt="HairDAO channel before GrowUMedia"
+                    className="h-full w-full object-cover"
+                  />
+                  <div className="border-t border-dark-border bg-dark-card px-4 py-3 text-xs font-black uppercase tracking-[0.14em] text-[#D97850]">
+                    44-119 views per video · zero research
+                  </div>
+                </div>
+
+                <div className="overflow-hidden rounded-lg border border-dark-border bg-dark-bg">
+                  <div className="border-b border-dark-border px-4 py-3 text-xs font-black uppercase tracking-[0.16em] text-[#D97850]">
+                    After — Anagen Channel
+                  </div>
+                  <img
+                    src="/case-studies/anagen-after.png"
+                    alt="Anagen channel after GrowUMedia"
+                    className="h-full w-full object-cover"
+                  />
+                  <div className="border-t border-dark-border bg-dark-card px-4 py-3 text-xs font-black uppercase tracking-[0.14em] text-[#D97850]">
+                    210K views · 73K views · research-first
+                  </div>
+                </div>
               </div>
-              <span className="text-xs text-text-muted">Client interview — embed here</span>
+
+              <div className="overflow-hidden rounded-lg border border-dark-border bg-dark-bg">
+                <div className="border-b border-dark-border px-4 py-3 text-xs font-black uppercase tracking-[0.16em] text-brand-yellow">
+                  Dashboard / Analytics
+                </div>
+                <img
+                  src="/case-studies/anagen-compare.png"
+                  alt="Anagen analytics comparison dashboard"
+                  className="h-full w-full object-cover"
+                />
+              </div>
             </div>
           </div>
 
@@ -69,13 +105,30 @@ export default function ClientResults() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
           {/* Case Study 02 */}
           <div className="rounded-2xl border border-dark-border bg-dark-card overflow-hidden">
-            {/* Video Top */}
-            <div className="bg-dark-card-2 aspect-video flex items-center justify-center">
-              <div className="flex flex-col items-center gap-4">
-                <div className="w-16 h-16 rounded-full bg-brand-yellow flex items-center justify-center">
-                  <div className="w-0 h-0 border-l-[16px] border-l-dark-bg border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent ml-1"></div>
+            {/* Proof Images */}
+            <div className="bg-dark-card-2 p-4">
+              <div className="grid gap-4">
+                <div className="overflow-hidden rounded-lg border border-dark-border bg-dark-bg">
+                  <div className="border-b border-dark-border px-4 py-3 text-xs font-black uppercase tracking-[0.16em] text-[#D97850]">
+                    Before — Beyond Social
+                  </div>
+                  <img
+                    src="/case-studies/vista-social-before.png"
+                    alt="Vista Social channel before GrowUMedia"
+                    className="w-full object-cover"
+                  />
                 </div>
-                <span className="text-xs text-text-muted">Case study video — embed here</span>
+
+                <div className="overflow-hidden rounded-lg border border-dark-border bg-dark-bg">
+                  <div className="border-b border-dark-border px-4 py-3 text-xs font-black uppercase tracking-[0.16em] text-brand-yellow">
+                    After — Vista Social
+                  </div>
+                  <img
+                    src="/case-studies/vista-social-after.png"
+                    alt="Vista Social channel after GrowUMedia"
+                    className="w-full object-cover"
+                  />
+                </div>
               </div>
             </div>
 
@@ -107,13 +160,17 @@ export default function ClientResults() {
 
           {/* Case Study 03 */}
           <div className="rounded-2xl border border-dark-border bg-dark-card overflow-hidden">
-            {/* Video Top */}
-            <div className="bg-dark-card-2 aspect-video flex items-center justify-center">
-              <div className="flex flex-col items-center gap-4">
-                <div className="w-16 h-16 rounded-full bg-brand-yellow flex items-center justify-center">
-                  <div className="w-0 h-0 border-l-[16px] border-l-dark-bg border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent ml-1"></div>
+            {/* Proof Image */}
+            <div className="bg-dark-card-2 p-4">
+              <div className="overflow-hidden rounded-lg border border-dark-border bg-dark-bg">
+                <div className="border-b border-dark-border px-4 py-3 text-xs font-black uppercase tracking-[0.16em] text-brand-yellow">
+                  Analytics — 365 Days
                 </div>
-                <span className="text-xs text-text-muted">Case study video — embed here</span>
+                <img
+                  src="/case-studies/brian-feroldi-analytics.png"
+                  alt="Brian Feroldi Long Term Mindset analytics showing 10.9M views"
+                  className="w-full object-cover"
+                />
               </div>
             </div>
 
@@ -123,23 +180,28 @@ export default function ClientResults() {
                 <span className="text-xs font-bold text-brand-yellow uppercase tracking-widest">
                   CASE STUDY 03
                 </span>
-                <span className="text-xs text-text-muted">WELLNESS · PERSONAL BRAND</span>
+                <span className="text-xs text-text-muted">FINANCE · INVESTING EDUCATION</span>
               </div>
 
               <div className="inline-flex items-center bg-brand-yellow-muted border border-brand-yellow-border rounded-lg px-4 py-2 w-fit flex-wrap">
-                <span className="text-lg font-bold text-brand-yellow">14X revenue growth</span>
+                <span className="text-lg font-bold text-brand-yellow">10.9M views</span>
                 <span className="text-sm text-text-muted ml-2">
-                  · $1.4K → $20K/month
+                  · 365 days · up 191% year on year
                 </span>
               </div>
 
               <h3 className="font-manrope font-black text-xl leading-tight gradient-headline text-left md:text-left">
-                Adison Briana — Yoga & Wellness
+                Brian Feroldi — Long Term Mindset
               </h3>
 
-              <p className="text-sm text-text-muted leading-relaxed">
-                Started at 824K subscribers with $1,400/month in revenue. Nine months later — 1.49 million subscribers, 154 million views, $20,000 per month. A 14X revenue increase driven entirely by a research-first content system, not by posting more.
-              </p>
+              <div className="space-y-3 text-sm text-text-muted leading-relaxed">
+                <p>
+                  Brian Feroldi runs one of the most respected finance and investing education channels on YouTube. The channel was producing consistently — what it didn't have was a research operation telling it which content the algorithm would actually surface at scale.
+                </p>
+                <p>
+                  10,921,351 views in the last 365 days. Up 191% from the previous year. 108,500 new subscribers. A multi-million dollar course business driven directly from YouTube — because the right content decisions compound over time.
+                </p>
+              </div>
             </div>
           </div>
         </div>
